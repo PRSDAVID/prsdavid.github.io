@@ -1,0 +1,65 @@
+.hidden {
+  display: none;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+body {
+  background-size: cover;
+  background-position: center center;
+  margin: 0;
+  font-size: 22px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column-reverse;
+  animation: fadeIn 1s ease-in-out forwards;
+  animation-delay: 0.5s;
+  color: white;
+  margin-left: 20px;
+}
+
+input {
+  background: none;
+  appearance: none;
+  border: 0;
+  font-size: 25px;
+  color: white;
+  border-bottom: 2px solid white;
+  margin-left: 20px;
+}
+
+input::placeholder {
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 10px;
+  margin-left: 0px;
+}
+
+#login-form {
+  margin-bottom: 20px;
+}
+#greeting {
+  margin: 20px;
+}
+
+#clock {
+  justify-items: center;
+  font-size: 3em;
+}
+
+#weather {
+  margin: 10px;
+  font-size: medium;
+}
+
+#quote {
+  margin: 250px;
+  font-size: xx-large;
+}
